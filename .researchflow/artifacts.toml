@@ -120,6 +120,26 @@ content_hash = "192ecc64ac0475021d54f9353b3bd284546f55f1af86c6734c90d19809cf1a3e
 mediation_origin = "chat_mediated"
 mediation_detail = ""
 
+[artifacts.file-ai--context--renderings--webui_project_instructions-md]
+artifact_type = "file"
+rel_path = "ai/context/renderings/webui_project_instructions.md"
+source_kind = "native_project_file"
+captured_at = "2026-11-20T13:34:43"
+lifecycle_state = "captured"
+privacy = "private"
+formality = "semi-formal"
+decision_state = "captured"
+title = "webui project instructions"
+status_summary = ""
+note = ""
+tags = []
+metadata_origin = "deterministic_system_derived"
+session_id = ""
+inbox_name = ""
+content_hash = "0e471b962fca5dd8b2fe25894bb1228d3924389ad4bff96d3aad000d2b21782a"
+mediation_origin = "chat_mediated"
+mediation_detail = ""
+
 [artifacts.file-ai--context--rf_method_protocol-md]
 artifact_type = "file"
 rel_path = "ai/context/rf_method_protocol.md"
@@ -220,6 +240,26 @@ content_hash = "a5f72b8396fdc71348af5fb7db0aff9dee0e8564c0e1417e673c3e09d252a3af
 mediation_origin = ""
 mediation_detail = ""
 
+[artifacts.file-io--out--snapshots--demo-nucleus-snapshot-20261120-141854-full-zip]
+artifact_type = "file"
+rel_path = "io/out/snapshots/demo-nucleus-snapshot-20261120-141854-full.zip"
+source_kind = "backfilled_existing_project_file"
+captured_at = "2026-11-20T13:29:05"
+lifecycle_state = "captured"
+privacy = "private"
+formality = "semi-formal"
+decision_state = "captured"
+title = "demo nucleus snapshot 20261120 141854 full"
+status_summary = ""
+note = ""
+tags = []
+metadata_origin = "heuristic_backfilled"
+session_id = ""
+inbox_name = ""
+content_hash = "cd785560e06af32091864c10bac08e54a314af56a182210d637dbcd7ac95c9cc"
+mediation_origin = ""
+mediation_detail = ""
+
 [artifacts.file-pyproject-toml]
 artifact_type = "file"
 rel_path = "pyproject.toml"
@@ -280,6 +320,26 @@ content_hash = "52cb91db0f4f4deb0437bfbcd70887d8c84f03b41d913f791db6190bd0e3d729
 mediation_origin = ""
 mediation_detail = ""
 
+[artifacts.patch-rf_patch_demo-nucleus_20261120_133359]
+artifact_type = "patch"
+rel_path = "ai/artifacts/imported_patches/rf_patch_demo-nucleus_20261120_133359.zip"
+source_kind = "uploaded_external_artifact"
+captured_at = "2026-11-20T13:34:41"
+lifecycle_state = "applied"
+privacy = "private"
+formality = "formal"
+decision_state = "captured"
+title = "rf_patch_demo-nucleus_20261120_133359"
+status_summary = ""
+note = ""
+tags = []
+metadata_origin = "imported"
+session_id = ""
+inbox_name = "rf_patch_demo-nucleus_20261120_133359.zip"
+content_hash = "78ba32fc7ce11a17d2e32f43ddce62193d5e69bcb3db06b6c6d62d2641f89a5e"
+mediation_origin = ""
+mediation_detail = ""
+
 [artifacts.patch-rf_patch_researchflow_20261117_092013_1]
 artifact_type = "patch"
 rel_path = "ai/artifacts/imported_patches/rf_patch_researchflow_20261117_092013_1.zip"
@@ -337,5 +397,25 @@ metadata_origin = "deterministic_system_derived"
 session_id = "20261120_render_chatgpt_after_ratification"
 inbox_name = ""
 content_hash = "c6c6395f094c2b913c0767550eae4b98ac6f956fa8973117f0bc44df1df8b8b5"
+mediation_origin = "chat_mediated"
+mediation_detail = ""
+
+[artifacts.session-20261120_webui_rendering_path_correction]
+artifact_type = "session"
+rel_path = "ai/sessions/manifests/20261120_webui_rendering_path_correction.md"
+source_kind = "native_project_file"
+captured_at = "2026-11-20T13:34:43"
+lifecycle_state = "captured"
+privacy = "private"
+formality = "non-formal"
+decision_state = "captured"
+title = "20261120_webui_rendering_path_correction"
+status_summary = ""
+note = ""
+tags = []
+metadata_origin = "deterministic_system_derived"
+session_id = "20261120_webui_rendering_path_correction"
+inbox_name = ""
+content_hash = "2b466ba50e24924be6d9e82aba9dc13a760653a547056d3a9138825615594d58"
 mediation_origin = "chat_mediated"
 mediation_detail = ""
