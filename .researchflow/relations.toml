@@ -1,0 +1,115 @@
+[relations]
+
+[relations.rel-20261117T162524-creates-patch-rf_patch_demo-nucl-file-ai--context--projec-f1b43c38]
+source_artifact_id = "patch-rf_patch_demo-nucleus_20261117_112148"
+target_artifact_id = "file-ai--context--project_charter-md"
+relation_family = "creates"
+created_at = "2026-11-17T16:25:24"
+note = ""
+origin_kind = "deterministic_system_derived"
+actor_kind = "system"
+
+[relations.rel-20261117T162524-creates-patch-rf_patch_demo-nucl-file-ai--context--render-54977d15]
+source_artifact_id = "patch-rf_patch_demo-nucleus_20261117_112148"
+target_artifact_id = "file-ai--context--renderings--claude_project_instructions-md"
+relation_family = "creates"
+created_at = "2026-11-17T16:25:24"
+note = ""
+origin_kind = "deterministic_system_derived"
+actor_kind = "system"
+
+[relations.rel-20261117T162524-creates-patch-rf_patch_demo-nucl-file-ai--context--render-c3d42a69]
+source_artifact_id = "patch-rf_patch_demo-nucleus_20261117_112148"
+target_artifact_id = "file-ai--context--renderings--chatgpt_project_instructions-md"
+relation_family = "creates"
+created_at = "2026-11-17T16:25:24"
+note = ""
+origin_kind = "deterministic_system_derived"
+actor_kind = "system"
+
+[relations.rel-20261117T162524-creates-patch-rf_patch_demo-nucl-session-20261117_charter-d363b84b]
+source_artifact_id = "patch-rf_patch_demo-nucleus_20261117_112148"
+target_artifact_id = "session-20261117_charter_definition"
+relation_family = "creates"
+created_at = "2026-11-17T16:25:24"
+note = ""
+origin_kind = "deterministic_system_derived"
+actor_kind = "system"
+
+[relations.rel-20261117T162524-derived_from-file-ai--context--render-file-ai--context--projec-39dd3c29]
+source_artifact_id = "file-ai--context--renderings--chatgpt_project_instructions-md"
+target_artifact_id = "file-ai--context--project_charter-md"
+relation_family = "derived_from"
+created_at = "2026-11-17T16:25:24"
+note = "Declared in manifest ai/sessions/manifests/20261117_charter_definition.md"
+origin_kind = "manifest_declared"
+actor_kind = "assistant"
+actor_label = "chatgpt/gpt-6"
+
+[relations.rel-20261117T162524-produces-session-20261117_charter-file-ai--context--projec-510468a1]
+source_artifact_id = "session-20261117_charter_definition"
+target_artifact_id = "file-ai--context--project_charter-md"
+relation_family = "produces"
+created_at = "2026-11-17T16:25:24"
+note = "Declared in manifest ai/sessions/manifests/20261117_charter_definition.md"
+origin_kind = "manifest_declared"
+actor_kind = "assistant"
+actor_label = "chatgpt/gpt-6"
+
+[relations.rel-20261117T162525-derived_from-file-ai--context--render-file-ai--context--projec-da234d8e]
+source_artifact_id = "file-ai--context--renderings--claude_project_instructions-md"
+target_artifact_id = "file-ai--context--project_charter-md"
+relation_family = "derived_from"
+created_at = "2026-11-17T16:25:25"
+note = "Declared in manifest ai/sessions/manifests/20261117_charter_definition.md"
+origin_kind = "manifest_declared"
+actor_kind = "assistant"
+actor_label = "chatgpt/gpt-6"
+
+[relations.rel-20261117T162525-derived_from-file-ai--context--render-file-ai--context--rf_met-ad08a015]
+source_artifact_id = "file-ai--context--renderings--chatgpt_project_instructions-md"
+target_artifact_id = "file-ai--context--rf_method_protocol-md"
+relation_family = "derived_from"
+created_at = "2026-11-17T16:25:25"
+note = "Declared in manifest ai/sessions/manifests/20261117_charter_definition.md"
+origin_kind = "manifest_declared"
+actor_kind = "assistant"
+actor_label = "chatgpt/gpt-6"
+
+[relations.rel-20261117T162525-derived_from-file-ai--context--render-file-ai--context--rf_met-f21e5230]
+source_artifact_id = "file-ai--context--renderings--claude_project_instructions-md"
+target_artifact_id = "file-ai--context--rf_method_protocol-md"
+relation_family = "derived_from"
+created_at = "2026-11-17T16:25:25"
+note = "Declared in manifest ai/sessions/manifests/20261117_charter_definition.md"
+origin_kind = "manifest_declared"
+actor_kind = "assistant"
+actor_label = "chatgpt/gpt-6"
+
+[relations.rel-20261120T132243-creates-patch-rf_patch_demo-nucl-session-20261120_render_-8bb2b558]
+source_artifact_id = "patch-rf_patch_demo-nucleus_20261120_132104"
+target_artifact_id = "session-20261120_render_chatgpt_after_ratification"
+relation_family = "creates"
+created_at = "2026-11-20T13:22:43"
+note = ""
+origin_kind = "deterministic_system_derived"
+actor_kind = "system"
+
+[relations.rel-20261120T132243-produces-session-20261120_render_-file-ai--context--render-7ca2349d]
+source_artifact_id = "session-20261120_render_chatgpt_after_ratification"
+target_artifact_id = "file-ai--context--renderings--chatgpt_project_instructions-md"
+relation_family = "produces"
+created_at = "2026-11-20T13:22:43"
+note = "Declared in manifest ai/sessions/manifests/20261120_render_chatgpt_after_ratification.md"
+origin_kind = "manifest_declared"
+actor_kind = "assistant"
+actor_label = "chatgpt/gpt-6"
+
+[relations.rel-20261120T132243-updates-patch-rf_patch_demo-nucl-file-ai--context--render-0128ff5c]
+source_artifact_id = "patch-rf_patch_demo-nucleus_20261120_132104"
+target_artifact_id = "file-ai--context--renderings--chatgpt_project_instructions-md"
+relation_family = "updates"
+created_at = "2026-11-20T13:22:43"
+note = ""
+origin_kind = "deterministic_system_derived"
+actor_kind = "system"

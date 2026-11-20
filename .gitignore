@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Data (typically large / not versioned)
+data/
+
+# ResearchFlow outputs
+io/
+
+# OS
+.DS_Store
+Thumbs.db
+# ResearchFlow patch register (developer-local)
+.researchflow/applied_patches.toml
