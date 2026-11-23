@@ -181,3 +181,33 @@ note = "Declared in manifest ai/sessions/manifests/20261120_webui_rendering_path
 origin_kind = "manifest_declared"
 actor_kind = "assistant"
 actor_label = "chatgpt/gpt-6"
+
+[relations.rel-20261123T224641-produces-session-Project-charter--patch-rf_patch_demo-nucl-5f65e0a0-ex2]
+source_artifact_id = "session-Project-charter-definition"
+target_artifact_id = "patch-rf_patch_demo-nucleus_20261117_112148"
+relation_family = "produces"
+created_at = "2026-11-23T22:46:41"
+note = "Auto-linked from exact patch filename in imported session text."
+origin_kind = "deterministic_system_derived"
+actor_kind = "system"
+target_exchange_index = 2
+
+[relations.rel-20261123T224641-produces-session-Project-charter--patch-rf_patch_demo-nucl-70193342-ex5]
+source_artifact_id = "session-Project-charter-definition"
+target_artifact_id = "patch-rf_patch_demo-nucleus_20261120_133359"
+relation_family = "produces"
+created_at = "2026-11-23T22:46:41"
+note = "Auto-linked from exact patch filename in imported session text."
+origin_kind = "deterministic_system_derived"
+actor_kind = "system"
+target_exchange_index = 5
+
+[relations.rel-20261123T224641-produces-session-Project-charter--patch-rf_patch_demo-nucl-afa909f9-ex4]
+source_artifact_id = "session-Project-charter-definition"
+target_artifact_id = "patch-rf_patch_demo-nucleus_20261120_132104"
+relation_family = "produces"
+created_at = "2026-11-23T22:46:41"
+note = "Auto-linked from exact patch filename in imported session text."
+origin_kind = "deterministic_system_derived"
+actor_kind = "system"
+target_exchange_index = 4

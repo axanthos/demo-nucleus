@@ -30,3 +30,4 @@
 2026-11-21T17:52:12	session.imported	session_id=ChatGPT_Clarify-Emoji-Counting-Definitions_20261121-1851	provider=gpt-6-thinking	source_kind=imported_webui_session_json	auto_patch_links=0	source_created_at=2026-11-20 15:47:39	actor_kind=user
 2026-11-23T19:01:46	artifact.captured	actor_kind=system	actor_label=model_evolution	rel_path=uv.lock	source_kind=backfilled_existing_project_file	metadata_origin=heuristic_backfilled	mode=model_evolution	content_hash=b3bae67aa99caf97a13d53ad9b862cdbd7c90c4c19cb7c24fa76a483c14b7416
 2026-11-23T19:01:46	bootstrap.backfilled	actor_kind=system	actor_label=model_evolution	mode=model_evolution	infrastructure_created=0	artifacts_registered=1
+2026-11-23T22:46:41	session.imported	session_id=Project-charter-definition	provider=gpt-6-thinking	source_kind=imported_webui_session_json	auto_patch_links=3	source_created_at=2026-11-17 11:38:31	actor_kind=user
